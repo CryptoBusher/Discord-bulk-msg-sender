@@ -86,10 +86,10 @@ class DiscordAccount:
         except Exception:
             raise FailCheckChatAccessException
 
-    def __generate_next_message_timestamp(self) -> dict:
+    def __generate_next_message_timestamp(self) -> float:
         return time() + randint(self.min_delay_sec, self.max_delay_sec)
 
-    def send_message(self) -> requests.Response:
+    def send_message(self) -> dict:
         self.next_message_timestamp = self.__generate_next_message_timestamp()
 
         random_message = choice(self.messages)
@@ -104,5 +104,3 @@ class DiscordAccount:
             raise UnauthSendMessageException
 
         return json.loads(response.text)
-
-
