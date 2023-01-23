@@ -39,22 +39,22 @@ def init_raw_accounts(_raw_accounts: list) -> list:
 
         except FailCreateSessionException:
             logger.error(f'Failed to init account, reason: failed to create requests session')
-            with open('data/failed_accounts/failed_to_create_session.txt', 'w') as file:
+            with open('data/failed_accounts/failed_to_create_session.txt', 'a') as file:
                 file.write(f'{account}\n')
 
         except NoChatAccessException:
             logger.error(f'Failed to init account, reason: no chat access')
-            with open('data/failed_accounts/no_chat_access.txt', 'w') as file:
+            with open('data/failed_accounts/no_chat_access.txt', 'a') as file:
                 file.write(f'{account}\n')
 
         except FailCheckChatAccessException:
             logger.error(f'Failed to init account, reason: failed to check chat access')
-            with open('data/failed_accounts/failed_to_check_chat_access.txt', 'w') as file:
+            with open('data/failed_accounts/failed_to_check_chat_access.txt', 'a') as file:
                 file.write(f'{account}\n')
 
         except Exception as e:
             logger.error(f'Undefined error during account init, reason: {e}')
-            with open('data/failed_accounts/undefined_errors.txt', 'w') as file:
+            with open('data/failed_accounts/undefined_errors.txt', 'a') as file:
                 file.write(f'{account}\n')
 
     return _account_objects
