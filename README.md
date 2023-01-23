@@ -14,7 +14,7 @@ The script can send scheduled messages (f.e. every hour, every day, etc.) or one
 1. User specifies accounts in the txt file
 2. Script initializes accounts, in case of fail - saves data to the 'data/failed_accounts' folder
 3. Script starts sending messages according to the delay, start on run and loop settings
-4. If the loop is disabled - the account is deleted from the queue
+4. If the loop is disabled - the account is deleted from the queue after sending the first message
 
 ## First start
 1. Install python
