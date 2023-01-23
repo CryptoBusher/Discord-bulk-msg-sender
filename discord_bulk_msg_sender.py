@@ -3,12 +3,20 @@ from operator import attrgetter
 from time import time, sleep
 from ast import literal_eval
 
+from pyfiglet import Figlet
 from loguru import logger
 
 from src.discord_account import *
 
 logger.remove()
 logger.add(stderr, format="<white>{time:HH:mm:ss}</white> | <level>{level: <8}</level> | <white>{message}</white>")
+
+
+f = Figlet(font='5lineoblique')
+print(f.renderText('Busher'))
+print('Telegram channel: @CryptoKiddiesClub')
+print('Telegram chat: @CryptoKiddiesChat')
+print('Twitter: @CryptoBusher\n')
 
 
 def init_raw_accounts(_raw_accounts: list) -> list:
