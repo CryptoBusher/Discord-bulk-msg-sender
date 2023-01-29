@@ -13,10 +13,8 @@ logger.add(stderr, format="<white>{time:HH:mm:ss}</white> | <level>{level: <8}</
 
 
 f = Figlet(font='5lineoblique')
-print(f.renderText('Busher'))
-print('Telegram channel: @CryptoKiddiesClub')
+print(f.renderText('tera2206'))
 print('Telegram chat: @CryptoKiddiesChat')
-print('Twitter: @CryptoBusher\n')
 
 
 def init_raw_accounts(_raw_accounts: list[str]) -> list[DiscordAccount]:
