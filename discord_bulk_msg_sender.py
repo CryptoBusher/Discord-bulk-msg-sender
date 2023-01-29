@@ -19,7 +19,7 @@ print('Telegram chat: @CryptoKiddiesChat')
 print('Twitter: @CryptoBusher\n')
 
 
-def init_raw_accounts(_raw_accounts: list) -> list:
+def init_raw_accounts(_raw_accounts: list[str]) -> list[DiscordAccount]:
     _account_objects = []
     for account in _raw_accounts:
         try:
