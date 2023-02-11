@@ -17,20 +17,12 @@ The script can send scheduled messages (f.e. every hour, every day, etc.) or one
 4. If the loop is disabled - the account is deleted from the queue after sending the first message
 
 ## First start
-1. Install python v 3.10.9
-    sudo apt update
-sudo apt install build-essential zlib1g-dev libncurses5-dev libgdbm-dev libnss3-dev libssl-dev libreadline-dev libffi-dev libsqlite3-dev wget libbz2-dev
-
-sudo wget https://www.python.org/ftp/python/3.10.9/Python-3.10.9rc2.tgz
-
-sudo tar -xf Python-3.10.9.tgz
- 
-cd Python-3.10.9rc2
-./configure --enable-optimizations
-
-sudo make -j 2
-
-sudo make altinstall
+1. Install python v 3.10.*
+    `sudo apt update`
+    `sudo apt install software-properties-common -y`
+    `sudo add-apt-repository ppa:deadsnakes/ppa`
+    `sudo apt install python3.10`
+    `python3.10 --version`
 
 python3.10 --version
 
