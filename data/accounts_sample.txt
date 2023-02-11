@@ -1,3 +1,3 @@
-custom_name_for_logs|discord_token|http_proxy|useragent|discord_chat_id|['message1', 'message2', 'message3'.....]|min_delay_sec|max_delay_sec|start_on_the_run_True_or_False|loop_True_or_False
-custom_name_for_logs|discord_token|http_proxy|useragent|discord_chat_id|['message1', 'message2', 'message3'.....]|min_delay_sec|max_delay_sec|start_on_the_run_True_or_False|loop_True_or_False
-custom_name_for_logs|discord_token|http_proxy|useragent|discord_chat_id|['message1', 'message2', 'message3'.....]|min_delay_sec|max_delay_sec|start_on_the_run_True_or_False|loop_True_or_False
+custom_name_for_logs|discord_token|http_proxy|useragent|discord_chat_id|['message1', 'message2', 'message3'.....]|min_delay_sec|max_delay_sec|True|True
+custom_name_for_logs|discord_token|http_proxy|useragent|discord_chat_id|['message1', 'message2', 'message3'.....]|min_delay_sec|max_delay_sec|True|True
+custom_name_for_logs|discord_token|http_proxy|useragent|discord_chat_id|['message1', 'message2', 'message3'.....]|min_delay_sec|max_delay_sec|True|True
