@@ -18,6 +18,22 @@ The script can send scheduled messages (f.e. every hour, every day, etc.) or one
 
 ## First start
 1. Install python v 3.10.9
+    sudo apt update
+sudo apt install build-essential zlib1g-dev libncurses5-dev libgdbm-dev libnss3-dev libssl-dev libreadline-dev libffi-dev libsqlite3-dev wget libbz2-dev
+
+sudo wget https://www.python.org/ftp/python/3.10.9/Python-3.10.9rc2.tgz
+
+sudo tar -xf Python-3.10.9.tgz
+ 
+cd Python-3.10.9rc2
+./configure --enable-optimizations
+
+sudo make -j 2
+
+sudo make altinstall
+
+python3.10 --version
+
 2. Download the repo
 3. Run cmd, navigate to the project folder
 4. Run the command `python3.10 -m pip install -r requirements.txt` to install all required dependencies
