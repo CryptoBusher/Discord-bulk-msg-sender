@@ -29,7 +29,7 @@ The script can send scheduled messages (f.e. every hour, every day, etc.) or one
         
     
     
-1.1 Install Python PIP with 3.10
+1.1 Install Python PIP with 3.10    https://www.linuxcapable.com/how-to-install-python-3-10-on-ubuntu-22-04-lts/  хороший мануал по установке, но можно использовать команды ниже
 
 
     sudo apt install python3-pip
