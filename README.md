@@ -22,7 +22,7 @@ The script can send scheduled messages (f.e. every hour, every day, etc.) or one
 
     sudo apt update
     sudo apt install software-properties-common -y   
-    sudo add-apt-repository ppa:deadsnakes/ppa`    
+    sudo add-apt-repository ppa:deadsnakes/ppa    
     sudo apt install python3.10    
     python3.10 --version
     
