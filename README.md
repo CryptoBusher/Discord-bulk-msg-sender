@@ -17,7 +17,7 @@ The script can send scheduled messages (f.e. every hour, every day, etc.) or one
 4. If the loop is disabled - the account is deleted from the queue after sending the first message
 
 ## First start
-1. Install python v 3.10.*
+1. Install python v 3.10
 
 
     `sudo apt update
