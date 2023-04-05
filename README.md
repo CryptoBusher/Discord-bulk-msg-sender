@@ -18,6 +18,8 @@ The script can send scheduled messages (f.e. every hour, every day, etc.) or one
 
 ## First start
 1. Install python v 3.10.*
+
+
     `sudo apt update`
     `sudo apt install software-properties-common -y`
     `sudo add-apt-repository ppa:deadsnakes/ppa`
