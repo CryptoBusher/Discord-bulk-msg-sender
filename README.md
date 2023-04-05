@@ -20,7 +20,7 @@ The script can send scheduled messages (f.e. every hour, every day, etc.) or one
 1. Install python v 3.10
 
 
-    `sudo apt update
+    `sudo apt update`
     
     sudo apt install software-properties-common -y
     
