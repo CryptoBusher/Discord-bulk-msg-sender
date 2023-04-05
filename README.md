@@ -29,11 +29,11 @@ The script can send scheduled messages (f.e. every hour, every day, etc.) or one
 1.1 Install Python PIP with 3.10
 
 
-    `sudo apt install python3-pip`
-    `wget https://bootstrap.pypa.io/get-pip.py`
-    `python3.10 get-pip.py`
-    `python3.10 -m pip install --upgrade pip`
-    `pip3.10 --version`
+    sudo apt install python3-pip
+    wget https://bootstrap.pypa.io/get-pip.py
+    python3.10 get-pip.py
+    python3.10 -m pip install --upgrade pip
+    pip3.10 --version
 
 2. Download the repo
 3. Run cmd, navigate to the project folder
