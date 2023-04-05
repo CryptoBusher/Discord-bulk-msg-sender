@@ -28,6 +28,7 @@ The script can send scheduled messages (f.e. every hour, every day, etc.) or one
     `sudo apt install python3-pip`
     `wget https://bootstrap.pypa.io/get-pip.py`
     `python3.10 get-pip.py`
+    
     `python3.10 -m pip install --upgrade pip`
     `pip3.10 --version`
 
