@@ -32,14 +32,14 @@ The script can send scheduled messages (f.e. every hour, every day, etc.) or one
 
 
     sudo apt install python3-pip
-    wget https://bootstrap.pypa.io/get-pip.py
-    python3.10 get-pip.py
-    python3.10 -m pip install --upgrade pip
-    pip3.10 --version
+    sudo wget https://bootstrap.pypa.io/get-pip.py
+    sudo python3.10 get-pip.py
+    sudo python3.10 -m pip install --upgrade pip
+    sudo pip3.10 --version
 
 2. Download the repo
 3. Run cmd, navigate to the project folder
-4. Run the command `python3.10 -m pip install -r requirements.txt` to install all required dependencies
+4. Run the command `sudo python3.10 -m pip install -r requirements.txt` to install all required dependencies
 5. Prepare data in the 'data/accounts.txt' file. 1 line = 1 account. Check the 'data/accounts_sample' file to see the correct format.
    1. custom_name_for_logs: choose any name, for logging purposes
    2. discord_token: discord token that can be obtained from the browser's Network tab
@@ -51,5 +51,5 @@ The script can send scheduled messages (f.e. every hour, every day, etc.) or one
    8. max_delay_sec: max delay before sending the message in seconds
    9. start_on_the_run_True_or_False: set True if you wish the bot to send the first message without delays right after you run the script, and set False if you wish to use the delay before the first message
    10. loop_True_or_False: set True if you wish to send messages in the loop, set False if you wish to send only 1 message
-6. Run the bot using the `python3.10 discord_bulk_msg_sender.py` command
+6. Run the bot using the `sudo python3.10 discord_bulk_msg_sender.py` command
 7. Failed accounts can be found in the 'data/failed_accounts' folder
